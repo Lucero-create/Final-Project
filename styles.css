@@ -164,7 +164,7 @@ section {
 .header__email {
   width: 100%;
   max-width: 448px;
-  height: 20px;
+  height: 80px;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -173,8 +173,8 @@ section {
 
 .header__email--btn {
   z-index: 2;
-  margin: 8px;
-  height: cal (100% -16px);
+  margin: 4px;
+  height: calc(100% - 16px);
   border-radius: 500px;
   width: 160px;
   border: none;
@@ -191,6 +191,7 @@ section {
 .header__email--input {
   width: 100%;
   max-width: 500px;
+  border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
   padding: 20px 192px 20px 32px;
   color: rgb(36, 62, 99);
@@ -700,6 +701,7 @@ header {
 }
 
 /* TESTIMONIALS */
+
 section #testimonials {
   padding: 0px;
 }
@@ -762,7 +764,7 @@ section #testimonials {
   color: rgb(74 85 104);
 }
 
-.testimonial__bottom {
+.testimonial__button {
   display: flex;
   justify-content: space-between;
 }
