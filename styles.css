@@ -452,14 +452,13 @@ header {
 
 /* values */
 
-#values .row {
+.values__row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
 }
+
 .section__tag {
   width: 100%;
 }
@@ -487,16 +486,14 @@ header {
   width: 50%;
 }
 .values__list {
-  margin-left: 0px;
-  margin-right:0px;
-  padding: 0;
+  margin-left: 6px;
+  margin-right: 3px;
   display: flex;
   flex-direction: row;
 }
 
 .value__title {
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -534,11 +531,12 @@ header {
 
 .btn {
   margin-top: 48px;
+  align-self: flex-start;
   background-color: #6415ff;
   padding: 12px 32px;
   border: none;
   color: white;
-  border-radius: 8px;
+  border-radius: 16px;
   width: 160px;
 }
 
@@ -808,6 +806,9 @@ section #testimonials {
   line-height: 1.625;
   font-size: 16px;
   color: rgb(74 85 104);
+}
+.testimonial__bottom {
+  margin-top: 20px;
 }
 
 .testimonial__button {
@@ -1313,7 +1314,7 @@ footer {
     margin-top: 20px;
     max-width: 209px;
   }
-  
+
   .footer__columns {
     padding: 40px;
     flex-wrap: wrap;
